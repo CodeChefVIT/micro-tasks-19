@@ -1,0 +1,11 @@
+body
+{
+font-family: 'lucida grande' ,tahoma, verdana, arian, sans-serif;
+background-colour:#000000;
+}
+#container{
+width:1080px;
+margin:0 auto;
+padding:1px;
+background-colour:#000;
+}
