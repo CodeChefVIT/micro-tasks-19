@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Tamanna 's Blog</title>
+		<link type ="text/css" rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+                <br>
+				<h1>CODECHEF</h1>
+			</div>
+			<div id ="content">
+				<div id="navigation">
+                    <br>
+                    <img src="download.png" id=i1>
+                    <br><br><br><br><br><br>
+                    <button type="button" id="b1">HOMEPAGE</button><br><br>
+                    <a href=addtocodechef.html><button type="button" id="b1">ADD TO CODECHEF</button></a><br><br>
+                    <button type="button" id="b1">JOIN CODECHEF</button><br><br>
+                    <button type="button" id="b1">NEXT</button><br><br>
+                    <a href=addtocodechef.html><button type="button" id="b1" >PREVIOUS</button></a><br><br>
+                    
+                </div>
+                <div id="main"><br>
+                    <H2 align="center"> WANT TO BECOME A MEMEBER</H2>
+                    <H3 align="center">Add You Details(we will contact you)</H3><br>
+                    <br>
+                    <table>
+                        <tr>
+                            
+                                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                                    <div>
+                                        <label>Full Name*</label><label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
+                                        <input type="text" name="fullName" id="fullName">
+                                    </div>
+                                    <div>
+                                        <label>REG NO</label>
+                                        <input type="text" name="regno" id="regno">
+                                    </div>
+                                    <div>
+                                        <label>DEPARTMENT(technical, management,editorial,design)</label>
+                                        <input type="text" name="department" id="department">
+                                    </div>
+                                    <div>
+                                        <label>PHONE NO</label>
+                                        <input type="text" name="phone" id="phone">
+                                    </div>
+                                    <div>
+                                        <label>EMAIL</label>
+                                        <input type="text" name="email" id="email">
+                                    </div>
+                                    <div  class="form-action-buttons">
+                                        <input type="submit" value="Submit">
+                                    </div>
+                                    </form>
+                        </tr> 
+                        <br><br>
+                        <tr>
+                                <table class="list" id="candidateList">
+                                    <thead>
+                                        <tr>
+                                            <th>Full Name</th>
+                                            <th>Reg NO</th>
+                                            <th>Department</th>
+                                            <th>Phone NO</th>
+                                            <th>Email</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                    </tbody>
+                                </table>
+                        </tr>
+                    </table>
+                    <script src="script.js"></script>
+     
+                </div>
+			</div>
+			<div id="foot">
+				copyright &copy;2018 TAMANNA SRIVASTAVA
+			</div>				
+		</div>
+	</body>
+</html>
+   
+                    
