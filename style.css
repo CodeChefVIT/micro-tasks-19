@@ -1,0 +1,122 @@
+  
+split-btn {
+    border: 2px solid #1FBAB4;
+    border-radius: 0 4px 4px 0;
+    color: #1FBAB4;
+    background-color: #fff;
+    padding: 8px 15px !important;
+}
+
+.split-btn.filled {
+    border-radius: 4px 0 0 4px;
+    color: #fff;
+    background-color: #1FBAB4;
+}
+
+.land-btn {
+    font-weight: 700;
+    text-transform: none;
+    font-family: 'Open Sans', sans-serif;
+    width: 250px;
+    border-radius: 4px;
+    border: 2px solid #F2BE19;
+    color: #F2BE19;
+}
+
+.land-btn:hover {
+    background-color: #F2BE19;
+    color: #232323;
+
+}
+
+.land-btn.filled {
+    background-color: #F2BE19;
+    color: #232323;
+}
+
+.land-btn.filled:hover {
+    border-color: #fdd247;
+    background-color: #fdd247;
+}
+
+.play-btn {
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    width: 250px;
+    border-radius: 4px;
+    margin-top: 20px;
+    border: 2px solid #1FBAB4;
+    background-color: #1FBAB4;
+    color: #232323;
+}
+
+.play-btn:hover {
+    background-color: #2DCEC8;
+}
+
+.navbar {
+    box-shadow: none;
+}
+
+.navy-text {
+    color: #0E4C60;
+}
+
+.teal-text {
+    color: #1FBAB4;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Arvo', serif;
+    font-size: 46px;
+    font-weight: 700;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Arvo', serif;
+    font-size: 33px;
+    font-weight: 700;
+    color: #fff;
+}
+
+h3 {
+    font-family: 'Arvo', serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.52px;
+}
+
+#strive li::before {
+    content: "\2022 ";
+    color: #1FBAB4;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#strive li {
+    color: #fff;
+    font-weight: 300;
+    text-indent: -20px;
+    margin-bottom: 15px;
+    list-style-type: none;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#landing-section {
+    margin-top: 66px;
+    height: calc(100vh - 66px);
+    background-image: url(https://codecombat.com/images/pages/home/jumbotron.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
